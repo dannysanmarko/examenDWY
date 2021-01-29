@@ -1,0 +1,8 @@
+{
+    "python.pythonPath": "C:\\Users\\defcon\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.linting.pylintArgs": [
+        "--error-only",
+        "--load-plugin",
+        "pylint_django"
+    ]
+}

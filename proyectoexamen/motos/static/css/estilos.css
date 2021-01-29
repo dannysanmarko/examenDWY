@@ -1,0 +1,125 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.carousel {
+  
+    -webkit-box-orient   : vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction   : column;
+    flex-direction       : column;
+    -webkit-transition   : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition        : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition           : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    overflow             : hidden;
+    -webkit-box-shadow   : 1px 1px 25px #18181b, 0px 0px 25px #18181b;
+    box-shadow           : 1px 1px 25px #18181b, -1px 10px 25px #18181b;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 3%;
+    width: 70%;
+    
+}
+
+
+
+.navbar-nav {
+  align-items: center;
+  font-size: 1.5em;
+}
+img.card-img-top {
+    max-width: 100%;
+}
+ul.pagination {
+    justify-content: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+u {
+  font-size: 1.5em;
+  align-items: center;
+  text-align: center;
+}
+
+.title h5 {
+  font-size: 3em;
+}
+
+body {
+  background: #fff;
+  font-family: monospace;
+}
+header {
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+}
+
+.logo-menu {
+  font-size: 2em;
+  background: #00171f;
+}
+
+.logo-menu .menu a {
+  display: inline-block;
+  padding: 40px 20px;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 4px solid #ff9f1c;
+  padding-bottom: 1px;
+}
+
+.footer {
+  background: #212529;
+  color: #fff;
+  position: relative;
+}
+.footer a {
+  color: #3c6e71;
+  font-weight: 500;
+}
+
+.texto-inicio h1 {
+    font-weight: 700;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-style: italic;
+    background-color: #18181b;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: solid 10px;
+    border-radius: 40px 40px 40px 40px;
+    text-transform: uppercase;
+}
+
+
+.card {
+    background-color: #012a4a;
+    -webkit-box-orient   : vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction   : column;
+    flex-direction       : column;
+    -webkit-transition   : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -o-transition        : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition           : all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    overflow             : hidden;
+    -webkit-box-shadow: 10px 10px 81px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 81px -6px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 81px -6px rgba(0,0,0,0.75);
+    border-radius: 10px 10px 10px 10px;
+    color: #ffffff;
+    
+}
